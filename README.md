@@ -38,8 +38,11 @@ Introduces interspatial attention (ISA) mechanism for diffusion transformer-base
 - **[GRAT: Grouping First, Attending Smartly – Training-Free Acceleration for Diffusion Transformers](https://arxiv.org/abs/2505.14687)** (May 2025)  
   Proposes GRAT, a training-free strategy that partitions tokens into GPU-friendly groups and restricts attention to structured regions. Delivers up to 35.8× speedup in 8192×8192 generation on A100, while preserving quality on pretrained Flux and HunyuanVideo.
 
-- **[Sparse VideoGen2: Accelerate Video Generation with Sparse Attention via Semantic-Aware Permutation](https://arxiv.org/abs/2505.18875))** (May 2025)  
+- **[Sparse VideoGen2: Accelerate Video Generation with Sparse Attention via Semantic-Aware Permutation](https://arxiv.org/abs/2505.18875)** (May 2025)  
   Proposes a training-free method that reorders tokens based on semantic clustering to form dense blocks. Achieves up to 2.3× speedup with minimal quality drop.
+
+- **[DraftAttention: Fast Video Diffusion via Low-Resolution Attention Guidance](https://arxiv.org/abs/2505.14708)** (May 2025)  
+  Proposes a training-free method using low-res draft attention to reorder tokens for structured sparse computation. Enables up to 1.75× speedup on GPUs with superior video generation quality.
 
 - **[VSA: Efficient Video Diffusion via Routing Sparse Attention](https://arxiv.org/abs/2505.13389)** (May 2025)  
 Proposes a trainable sparse attention mechanism that routes attention to important tokens in video diffusion models, reducing training FLOPs by 2.5× and cutting inference latency from 31s to 18s without degrading generation quality.
