@@ -8,6 +8,9 @@ A curated list of recent papers on **efficient video attention** for video diffu
 
 ## Papers
 
+- **[Mixture of Contexts for Long Video Generation](https://arxiv.org/abs/2508.21058)** (Aug 2025)
+  This work recasts long-context video generation as an internal information retrieval task and proposes a simple, learnable sparse attention routing module, Mixture of Contexts, as an effective long-term memory retrieval engine. By discarding 85% of the context, this approach achieves a 2.2× speedup.
+
 - **[Sparse-vDiT: Unleashing the Power of Sparse Attention to Accelerate Video Diffusion Transformers](https://arxiv.org/abs/2506.03065)** (Jun 2025)  
 This paper provides a detailed analysis of attention maps in Video Diffusion Transformers and identifies three recurring sparsity patterns: diagonal, multi-diagonal, and vertical-stripe structures. It achieves 2.09× theoretical FLOP reduction and 1.76× inference speedup on CogVideoX while maintaining visual fidelity.
 
