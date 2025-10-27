@@ -8,6 +8,9 @@ A curated list of recent papers on **efficient video attention** for video diffu
 
 ## Papers
 
+- **[SLA: Beyond Sparsity in Diffusion Transformers via Fine-Tunable Sparse-Linear Attention](https://www.arxiv.org/abs/2509.24006)** (Sep 2025)
+  SLA, a trainable attention method combining sparse and linear attention, accelerates Diffusion Transformer models for video generation with minimal quality loss. SLA reduces attention computation by 95% without degrading end-to-end generation quality. An efficient GPU kernel for SLA is implemented, which yields a 13.7× speedup in attention computation and a 2.2× end-to-end speedup in video generation on Wan2.1-1.3B.
+
 - **[Mixture of Contexts for Long Video Generation](https://arxiv.org/abs/2508.21058)** (Aug 2025)
   This work recasts long-context video generation as an internal information retrieval task and proposes a simple, learnable sparse attention routing module, Mixture of Contexts, as an effective long-term memory retrieval engine. By discarding 85% of the context, this approach achieves a 2.2× speedup.
 
